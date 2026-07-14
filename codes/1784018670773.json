@@ -1,0 +1,1 @@
+{"fileName":"🇹🇷 Source code to HTML Download Bot","codeType":"JavaScript","content":"const html = document.body.innerHTML;\n\nconst base64 = btoa(unescape(encodeURIComponent(html)));\n\nAxiomBlobDownloader.saveBase64(\n    base64,\n    \"text/html\",\n    \"Gemini_Source.html\"\n);"}
